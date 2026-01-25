@@ -1,7 +1,7 @@
 {
-  "name": "Example App",
+  "name": "My Cool App",
   "author": "YourGitHubName",
-  "description": "Example app for demo.",
-  "url": "https://your-username.github.io/your-app/",
-  "svg": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><circle cx='12' cy='12' r='10'/></svg>"
+  "description": "What your app does in one sentence.",
+  "url": "https://raw.githubusercontent.com/yourusername/repositoryname/main/something.html",
+  "svg": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><your svg code ></svg>"
 }
