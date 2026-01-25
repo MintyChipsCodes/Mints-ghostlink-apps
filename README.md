@@ -18,7 +18,7 @@ Adding your app to the GhostLink marketplace is free and open to everyone!
 Your app must be a standalone HTML file. You can host it using:
 * **GitHub** (recomended, raw file url or just file url)
 * **JSdeliver link**
-* **Raw HTML** (MUST BE CONVERTED TO A SINGLE LINE)
+* **Any Link** (Will be embeded in an Iframe)
 
 ### 2. Create a JSON file with the following format
 For a Github file:
@@ -28,16 +28,6 @@ For a Github file:
   "author": "YourGitHubName",
   "description": "What your app does in one sentence.",
   "url": "https://raw.githubusercontent.com/yourusername/repositoryname/main/something.html",
-  "svg": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><your svg code ></svg>"
-}
-```
-For a raw HTML file:
-```json
-{
-  "name": "My Cool App",
-  "author": "YourGitHubName",
-  "description": "What your app does in one sentence.",
-  "url": "data:text/html;charset=utf-8,<!DOCTYPE html><html lang=\"en\">...HTML must be in this...</html>",
   "svg": "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><your svg code ></svg>"
 }
 ```
